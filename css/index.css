@@ -175,12 +175,14 @@ body {
   font-weight: 600;
 }
 .hero-heading h4 {
+  font-size: 1.2rem;
   margin: 1rem 0;
   padding: 0 0 1.5rem 0;
   border-bottom: 1px solid gray;
 }
 .hero-heading p {
   margin: 0 0 1rem 0;
+  font-size: 1.1rem;
 }
 .hero-heading button {
   background-color: #373737;
@@ -192,4 +194,38 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 1rem;
+}
+.middle-content-container {
+  background-color: #fff;
+}
+.middle-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.middle-content .about-me {
+  width: 50%;
+}
+.middle-content .about-me h2 {
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0;
+}
+.middle-content .about-me p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+.middle-content .skills {
+  width: 40%;
+}
+.middle-content .skills h2 {
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0;
+}
+.middle-content .skills ul {
+  display: flex;
+  flex-direction: column;
+}
+.middle-content .skills li {
+  border: 0.5px solid #f1f1f1;
+  padding: 1rem 1rem;
 }

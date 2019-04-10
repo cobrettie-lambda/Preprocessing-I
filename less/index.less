@@ -201,6 +201,7 @@ body {
 	}
 
 	h4 {
+		font-size: 1.2rem;
 		margin: 1rem 0;
 		padding: 0 0 1.5rem 0;
 		border-bottom: 1px solid gray;
@@ -208,6 +209,7 @@ body {
 
 	p {
 		margin: 0 0 1rem 0;
+		font-size: 1.1rem;
 	}
 
 	button {
@@ -221,5 +223,48 @@ body {
 		text-decoration: none;
 		color: #fff;
 		font-size: 1rem;
+	}
+}
+
+.middle-content-container {
+	background-color: #fff;
+}
+
+.middle-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	.about-me {
+		width: 50%;
+
+		h2 {
+			font-size: 2rem;
+			margin: 2rem 0 1rem 0;
+		}
+
+		p {
+			font-size: 1.1rem;
+			margin: 1rem 0;
+		}
+	}
+
+	.skills {
+		width: 40%;
+
+		h2 {
+			font-size: 2rem;
+			margin: 2rem 0 1rem 0;
+		}
+
+		ul {
+			display: flex;
+			flex-direction: column;
+		}
+
+		li {
+			border: .5px solid #f1f1f1;
+			padding: 1rem 1rem;
+		}
 	}
 }
