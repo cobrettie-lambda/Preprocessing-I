@@ -247,3 +247,9 @@ footer {
   border: 0.5px solid #f1f1f1;
   padding: 1rem 1rem;
 }
+footer .contact h2 {
+  font-size: 2rem;
+}
+footer .contact a {
+  text-decoration: none;
+}
