@@ -158,7 +158,8 @@ body {
 footer {
 	background-color: @seashell;
 	text-align: center;
-	padding: 2rem 0;
+	margin: 0 0 2rem 0;
+	padding: 2rem 0 2rem 0;
 }
 
 .main-container {
@@ -300,9 +301,35 @@ footer {
 footer .contact {
 	h2 {
 		font-size: 2rem;
+		margin: 1rem 0 2rem 0;
+	}
+
+	h3 {
+		margin: 0 0 3rem 0;
+		font-size: .8rem;
 	}
 
 	a {
-		text-decoration: none;
+		text-decoration: underline;
+		color: @mineshaft;
+	}
+
+}
+
+.work-history-container {
+
+	.work-history {
+		padding: 0 0 2rem 0;
+
+		h2 {
+			font-size: 1rem;
+			margin: 0 0 1rem 0;
+		}
+
+		ul {
+			margin: 0 0 0 1.5rem;
+			list-style-type: disc;
+			font-size: .8rem;
+		}
 	}
 }
